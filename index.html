@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="tl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Para Sa'yo ✨</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="card-container">
+        <div class="glow-circle sphere-1"></div>
+        <div class="glow-circle sphere-2"></div>
+
+        <div class="love-card">
+            
+            <div id="step-note" class="form-step active">
+                <div class="card-header">
+                    <h2>Para Sa'yo... 🌹</h2>
+                    <p class="love-letter">
+                       yow si dib nga pla to may sasabihin lang ako sayo wag ka magugulat ah kase iknow naman na mangyayari din to tsaka ill take the risk naren naman gusto kita, hinde sa gusto lang kita gustong gusto kita as in i like you
+                      di lang sa ganda mo pero sa katangian mo nahulog ako sayo dahil sobrang bait mo palabiro ka tas sinasabayan mo rin yung mga trip namin idk why basta while kasama kita sa laro is im feel confort kapag kasasma ka gumagaan yung pakiramdam ko kapag kasama ka.at i know naman na i was rejected na kase sa personalities ko den i can say bad words yung lang ata mali sakin ano paba kaya wait isispin ko ah 
+                      parang nantritrip ako pero ginagawa ko yun kase i can communicate with you and with our other friend? freinds basta kaibigan yun lang sana  hehe  ty sa pag basa ........ 
+                    </p>
+                </div>
+                <div class="btn-choice-container">
+                    <button type="button" id="startBtn" class="choice-btn yes">Yes, simulan natin! ❤️</button>
+                </div>
+            </div>
+
+            <div id="step-evasive" class="form-step">
+                <div class="card-header">
+                    <h2>Meto dito mo nalang lagay kung may pag asa ako 🥺</h2>
+                    <p>Sagutin mo nang seryoso ha, seyso sana plesss.</p>
+                </div>
+                <div class="btn-choice-container">
+                    <button type="button" id="yesBtn" class="choice-btn yes">Oo naman! 😍</button>
+                    <button type="button" id="noBtn" class="choice-btn no">Hindi ❌</button>
+                </div>
+            </div>
+
+            <div id="step-slider" class="form-step">
+                <div class="card-header">
+                    <h2>Sabi kona eh! Hahaha 💌</h2>
+                    <p>Pakisagutan naman ito nang buong katapatan. basta paki sagot nlng ty.</p>
+                </div>
+
+                <form id="loveForm">
+                    <div class="input-group">
+                        <label for="name">kaoooooeeeeiiii</label>
+                        <input type="text" id="name" name="Pangalan" placeholder="Ipasok ang iyong pangalan..." required autocomplete="off">
+                    </div>
+
+                    <div class="slider-group">
+                        <label>may pag-asa ba ako?? (1 - 10)</label>
+                        
+                        <div class="interactive-zone">
+                            <div class="counter-display">
+                                <span id="rateValue">5</span>
+                                <div class="status-text" id="statusText">Sakto lang 🙂</div>
+                            </div>
+
+                            <div class="slider-interface">
+                                <input type="range" id="rateSlider" name="Rate_ng_Pagkagusto" min="1" max="10" value="5" orient="vertical">
+                                
+                                <div class="metric-labels">
+                                    <span class="top-label">10 - meronnn! 😍</span>
+                                    <span class="mid-label">5 - nasa mid na 🙂</span>
+                                    <span class="bottom-label">1 - wala 😢</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <button type="submit" class="send-btn" id="submitBtn">Ipadala ang Sagot ✨</button>
+                </form>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
